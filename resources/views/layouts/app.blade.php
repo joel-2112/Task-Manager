@@ -9,6 +9,7 @@
 <body class="bg-gray-50 font-sans">
     <div class="container mx-auto p-6 ">
         @yield('content')
+        {{-- <script src="{{ mix('js/app.js') }}"></script> --}}
     </div>
 </body>
 </html>
